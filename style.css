@@ -1,0 +1,402 @@
+body {
+
+background-image:url(images/back.jpg);
+/*background-attachment: fixed;*/
+background-size: cover;
+
+}
+#cover
+{
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+}
+
+#onglets
+{
+    font : bold 11px Batang, arial, serif;
+    list-style-type : none;
+    padding-bottom : 24px; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
+     margin-left : 0;
+    position : absolute;
+    padding : 0;
+    font : bold 14px Batang, arial, serif;
+    list-style-type : none;
+    left : 80%;
+    margin-top : 0;
+    width : 430px;
+    margin-left : -215px; /* la moitié de width */
+}
+#onglets li
+{
+    float : left;
+    height : 21px; /* à modifier suivant la taille de la police pour centrer le texte dans l'onglet */
+    margin : 2px 2px 0 2px !important;  /* Pour les navigateurs autre que IE */
+    margin : 1px 2px 0 2px;  /* Pour IE  */
+  }
+#onglets li:active
+{
+    background-color: #FE0000;
+}
+#onglets a
+{
+    display : block;
+    color : white;
+    text-decoration : none;
+    padding : 9px;
+}
+#onglets a:hover
+{
+    cursor: hand;
+    background: #FE0000
+}
+#menu
+{
+
+		border-style: none;
+		background-color: #FA5858;
+       /* border-bottom : 1px solid #9EA0A1;*/
+        padding-bottom : 45px;
+}
+#wel1
+{
+	max-width: 100%;
+    height: auto;
+
+}
+#corps1
+{
+	width: 50%;
+	float: right;
+	height: 45%;
+	
+}
+
+#corps2
+{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#corps1_skills
+{
+	width: 49%;
+	height: 100%;
+	float: left;
+	border-right-style: solid 1px;
+	background-color: rgba(200,200,200,0.7);
+}
+#corps2_skills
+{
+	width: 49%;
+	height: 100%;
+	float: right;
+	border-left-style: solid 1px;
+	background-color: rgba(200,200,200,0.7);
+	
+}
+#img1
+{
+	border-radius: 50%;
+	opacity: 0.8;
+	width: 20%;
+
+}
+#myfoot
+{
+	clear: both;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 250px;
+ /* background-color: #F2F2F2;*/
+  text-align: center;
+
+  
+
+}
+#social{
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-style: ridge;
+	border-top-width: 1px;
+}
+li{
+	display: inline;
+}
+#div3
+{
+	height: 40%;
+	width: 100%;
+}
+#contact{
+	float: left;
+	margin-left: 1%;
+	border-top-style: ridge;
+	border-top-width: 1px;
+}
+#location{
+	border-top-style: ridge;
+	border-top-width: 1px;
+	float: right;
+	margin-right: 1%;
+}
+.imgfoot{
+	height: 7%;
+	width: 7%;
+	margin-right: 2%;
+}
+#total
+{
+	width: 1030px;
+	height: 500px;
+	clear: both;
+	text-align: left;
+
+	background-color: rgba(233, 230, 230, 1);
+}
+#firstdiv{
+	width: 315px;
+	height: 300px;
+	margin-left: 0px;
+	float: left;
+	display: inline;
+	text-align: left;
+	/*background-color: gray;*/
+
+}
+#secondiv{
+	width: 315px;
+	height: 300px;
+	margin-left: 30px;
+	float: left;
+	display: inline;
+	text-align: left;
+	/*background-color: gray;*/
+
+}
+#thirdiv{
+	width: 315px;
+	height: 300px;
+	margin-right: :5px;
+	float: right;
+	display: inline;
+	text-align: left;
+	/*background-color: gray;*/
+
+}
+#divpresent{
+	height: 25%;
+	margin-left: 60px;
+	width: 80%;
+	border-top-style: solid 1px;
+    border-right-style: solid 1px;
+    border-bottom-style: solid 1px;
+    border-left-style: solid 1px;
+    border-radius: 5px;
+    border-right-color: white;
+    border-left-color: white;
+    border-top-color: white;
+    border-bottom-color: white;
+    background-color: rgba(233, 230, 230, 0.25);
+
+}
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+#moi { 
+    color: white;
+    /*border-right: .1em solid black;*/
+    width: 100%; 
+   /* margin: 2em 1em;*/
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s 
+
+steps(21, end),
+blink-caret .5s step-end infinite alternate;
+}
+#resume
+{
+margin-left: 2px;
+height: 4%;
+border-bottom:solid;
+border-bottom-color: black;
+font-family: georgia;
+font-size: 20px;
+}
+#resume2
+{
+margin-left: 7px;
+height: 4%;
+border-left: solid;
+border-left-color: black;
+font-family: georgia;
+font-size: 20px;
+}
+
+
+
+.btn-group .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group .button:hover {
+    background-color: #3e8e41;
+    cursor: none;
+
+}
+
+#forma{
+width: 100%;
+height: 20%;
+color: black;
+font-size: 12px;
+
+}
+#forma_img{
+	height: 20%;
+	width: 10%;
+}
+.scroller{
+    background-color: #00FFFF;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+
+}
+#cita{
+	font-size: 13px;
+}
+#monbox{
+	background-color: rgba(0,0,0,0.1);
+	width: 80%;
+    border: 4px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 25px;
+
+}
+#social2{
+	width: 30%;
+	height: 50%;
+	/*background-color: rgba(0,0,0,0.1);*/
+}
+#social2_1{
+	float: left;
+	width: 40%;
+	height: 100%;
+	padding-bottom: 3px;
+
+}
+#social2_2{
+	width: 40%;
+	height: 100%;
+	float: right;
+		
+}
+
+#soc_img{
+	height: 60%;
+	padding-top: 10px;
+	width: 50%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-size: 12px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+#goodat{
+
+	width: 80%;
+	height:120px;
+
+}
+#good{
+
+    list-style-type:circle;
+
+}
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    /*padding: 14px 28px; /* Add some padding */
+    cursor: none; /* Add a pointer cursor on mouse-over */
+    text-align: left;
+}
+.pitching {background-color: #4CAF50;
+width: 70%;
+float: left;
+	} 
+.team {background-color: #4CAF50;
+width: 60%;
+float: left;
+	} 
+.self{
+background-color: #4CAF50;
+width: 50%;
+float: left;
+
+}
+.control{
+background-color: #4CAF50;
+width: 80%;
+float: left;
+
+}
+.prog{
+background-color: #4CAF50;
+width: 47%;
+float: left;
+
+}
+.critical{
+
+background-color: #4CAF50;
+width: 82%;
+float: left;
+
+}
+.adapt{
+
+background-color: #4CAF50;
+width: 65%;
+float: left;
+
+}
+#why{
+	padding-left: 25px;
+	width: 90%;
+	height:100px;
+	text-align: center;
+	font-size: 15px;
+}
+#startup{
+height: 50px;
+width: 25%;
+padding-left: 5px;
+float: left;
+
+}
+#zero1{
+height: 50px;
+width: 40%;
+float: right;
+
+}
